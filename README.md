@@ -34,3 +34,7 @@ Compiling first with `go build` doesn't make much of a difference
 ### Conclusion
 
 For this exercise, Python was faster than Go. 
+HOWEVER, for an insight about why is it faster (mostly blaming it to the `go-fuzzywuzzy` implementation), see this answer:
+
+https://codereview.stackexchange.com/questions/236189/are-there-ways-to-speed-up-this-string-fuzzy-matching-in-golang/
+
