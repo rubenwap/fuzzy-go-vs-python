@@ -38,3 +38,9 @@ HOWEVER, for an insight about why is it faster (mostly blaming it to the `go-fuz
 
 https://codereview.stackexchange.com/questions/236189/are-there-ways-to-speed-up-this-string-fuzzy-matching-in-golang/
 
+## UPDATE!
+
+The author of `go-fuzzywuzzy` kindly applied the fixes described in the codereview answer, and now it outperforms Python:
+
+    ruben@MacBook > ~/Code/fuzzy > time go run fuzzy.go
+    go run fuzzy.go  11,31s user 0,60s system 102% cpu 11,614 total
